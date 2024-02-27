@@ -11,8 +11,8 @@ import (
 )
 
 var (
-	token     = "MTIxMTk2NTU1NzgxODEzNDU1OQ.GVSfYj.QjeuB_hotlLWZv1Y-3U0WjuE-vP6W0Rqmm6VZ0"
-	channelID = "1030411956194136081"
+	token     = os.Getenv("TOKEN")
+	channelID = os.Getenv("CHANNEL_ID")
 )
 
 func main() {
